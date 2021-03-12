@@ -1,0 +1,9 @@
+Página 29:
+Calcule o número de subtrações que o código abaixo realiza:
+
+int i = 10;
+while (i >= 7){
+    i--;
+}
+
+Resposta: O código realiza 4 subtrações.

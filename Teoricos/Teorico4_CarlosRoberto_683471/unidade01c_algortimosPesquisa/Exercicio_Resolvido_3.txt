@@ -1,0 +1,7 @@
+Página 59:
+Quando acontece o melhor e o pior caso do algoritmo de pesquisa binária?
+
+Resposta: O melhor caso acontece quando o elemento procurado está na metade do array, ou seja,
+a primeira posição a ser pesquisada.
+E o pior caso acontece quando o elemento está na última posição a ser procurada, ou não
+está no array.

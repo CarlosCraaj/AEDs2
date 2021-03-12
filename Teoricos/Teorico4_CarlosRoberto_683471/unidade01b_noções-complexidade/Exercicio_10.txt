@@ -1,0 +1,9 @@
+Página 71:
+Calcule o número de multiplicações que o código abaixo realiza:
+
+for (int i = 0; i < n; i++)
+    for (int j = 0; j < n - 3; j++)
+	a *= 2;	
+
+
+Resposta: O código realiza n * (n - 3).

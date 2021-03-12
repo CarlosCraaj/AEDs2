@@ -1,0 +1,20 @@
+Enunciado: O que o código abaixo faz?
+Código: 
+boolean doidao (char c){
+    boolean resp= false;
+    int v = (int) c;
+    if (v == 65 || v == 69 || v == 73 || v == 79 || v == 85 || v == 97 || v == 101 || v ==105 ||
+        v == 111 || v == 117){
+        resp = true;
+    }
+    return resp;
+}
+char toUpper(char c){
+    return (c >= ‘a' && c <= ‘z') ? ((char) (c – 32)) : c ;
+}
+boolean isVogal (char c){
+    c = toUpper(c);
+    return (c =='A' || c =='E' || c =='I' || c =='O' || c =='U');
+}
+
+Resposta: Faz o processo de conversão de LowerCase para UpperCase (caso seja mesmo LowerCase), e depois testa se é vogal.

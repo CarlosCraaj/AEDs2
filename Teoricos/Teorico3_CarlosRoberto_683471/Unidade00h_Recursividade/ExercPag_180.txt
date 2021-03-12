@@ -1,0 +1,24 @@
+Página 180:
+Faça um método recursivo que receba um array de caracteres e retorne um
+número inteiro indicando a quantidade de vogais do mesmo
+
+Resposta: 
+char toUpper(char c){
+    return (c >= ‘a’ && c =< ‘z’) ? (char)(c - 32) : c ;
+}
+
+int contMaiusculo (String s){
+    return contMaiusculo (s, 0);
+}
+int contMaiusculo (String s, int i){
+    int cont = 0;
+    
+    if (i < s.length()){
+        if (isUpper(s.charAt(i)) == true){
+	    cont++;
+	}
+	cont += contMaiusculo (s, i + 1);
+    }
+return cont;
+
+}

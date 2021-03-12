@@ -1,0 +1,95 @@
+Página 84:
+Faça um método que receba um número inteiro n e efetue o número de
+subtrações pedido em:
+
+a) 3n + 2n²
+Resposta:
+i = 0;
+while (i < n){
+    i++;
+    a--; b--; c--;
+}
+for (i = 0; i < n; i++){
+    for (j = 0; j < n; j++){
+        a--; b--;
+    }
+}
+
+---------------------------------
+
+b) 5n + 4n³
+Resposta: 
+i = 0;
+while(i < n){
+    i++;
+    a--; b--; c--; d--; e--;
+}
+for (i = 0; i < n; i++){
+    for(j = 0; j < n; j++){
+        for( x = 0; x < n; x++){
+            a--; b--; c--; d--;
+        }
+    }
+}
+
+-------------------------------------
+
+c) lg(n) + n
+Resposta:
+i = 0;
+for(i = n; i > 1; i++){
+    a--;
+}
+while(i < n){
+    i++;
+    a--;
+}
+
+----------------------------------------
+
+d) 2n³ + 5
+Resposta:
+for (i = 0; i < n; i++){
+    for(j = 0; j < n; j++){
+        for( x = 0; x < n; x++){
+            a--; b--;
+        }
+    }
+}
+
+a--; b--; c--; d--; e--;
+
+-------------------------------------------
+
+e) 9n4 + 5n2 + n/2
+Resposta:
+for (i = 0; i < n; i++){
+    for(j = 0; j < n; j++){
+        for( x = 0; x < n; x++){
+            for(z = 0; z < n; z++){
+	        a--; b--; c--; d--; e--; f--; g--; h--; i--;
+	    }
+        }
+    }
+}
+
+for (i = 0; i < n; i++){
+    for (j = 0; j < n; j++){
+        a--; b--;c--; d--; e--;
+    }
+}
+
+for(i = 0; i < n; i+=2){
+    a--;
+}
+
+-----------------------------------------------
+
+f) lg(n) + 5 lg(n)
+for(i = n; i > 1; i++){
+    a--;
+}
+
+for(i = n; i > 1; i++){
+    a--; b--; c--; d--; e--;
+}

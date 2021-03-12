@@ -1,0 +1,8 @@
+Página 74:
+Calcule o número de multiplicações que o código abaixo realiza:
+
+for (int i = n+4; i > 0; i >>= 1)
+    a *= 2;
+
+Resposta: O código realiza (lg(n+4) + 1) multiplicações. lg(n+4) somente a parte inteira,
+podendo também a resposta ser Piso de lg(n+4) + 1.

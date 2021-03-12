@@ -1,0 +1,217 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Pergunta 1: Qual é a diferença entre as notações O, (Ômega) e (theta)? Pesquise!!!
+Resposta: 
+
+A notação O, é o pior caso de um algoritmo, ou seja, analisamos quantas comparações,
+movimentações e outras métricas, para calcular o máximo de tempo que um algoritmo gasta,
+para realizar determinada tarefa. É conhecido como limite superior.
+Ex: uma função do tipo 3n² é tanto O(n²), como também pode ser O(n³).
+
+A notação (Ômega), é o melhor caso que algum algoritmo executará, é chamado de limite inferior
+logo uma função do tipo 3n + 5n é (Ômega)(n), como também é (Ômega)(1);
+
+A notação (theta), é usada para representar um limite justo de execução/desempenho de um
+algoritmo. A notação (theta) representa o ponto entre as notações (Ômega) e O, limite inferior e limite superior
+respectivamente. Ou seja, a notação (theta), somente será válida, se as notações (Ômega) e O, tiverem
+um mesmo valor, exemplo: O(n) e (Ômega)(n) = (theta)(n);
+
+Pergunta 2: Qual é a notação O, (Ômega) e (theta) para todos os exercícios feitos
+nesta Unidade?
+Resposta:
+
+Exercício Resolvido (1)
+a--;
+a -= 3;
+a = a - 2;
+Resposta: O(1), Ômega(1) e theta(1)
+--------------------------------
+Exercício Resolvido (2)
+if (a + 5 < b + 3){
+    i++;
+    ++b;
+    a += 3;
+} else {
+    j++;
+}
+
+Resposta: O(1), Ômega(1) e theta(1)
+--------------------------------------
+Exercício Resolvido (3)
+if (a + 5 < b + 3 || c + 1 < d + 3){
+    i++;
+    ++b;
+    a += 3;
+} else {
+    j++;
+}
+
+Resposta: O(1), Ômega(1) e theta(1)
+---------------------------------------
+Exercício Resolvido (4)
+for (int i = 0; i < 4; i++){
+a--;
+}
+
+Resposta: O(1), Ômega(1) e theta(1)
+----------------------------------------
+Exercício Resolvido (5)
+for (int i = 0; i < n; i++){
+    a--;
+    b--;
+}
+
+Resposta: O(n), Ômega(n) e theta(n)
+-----------------------------------------
+Exercício Resolvido (6)
+int i = 0, b = 10;
+while (i < 3){
+    i++;
+    b--;
+}
+
+Resposta: O(1), Ômega(1) e theta(1)
+------------------------------------------
+Exercício Resolvido (7)
+for (int i = 3; i < n; i++){
+    a--;
+}
+
+Resposta: O(n), Ômega(n) e theta(n)
+------------------------------------------
+Exercício (5) 
+int i = 10;
+while (i >= 7){
+    i--;
+}
+
+Resposta: O(1), Ômega(1) e theta(1)
+------------------------------------------
+Exercício (6)
+for (int i = 5; i >= 2; i--){
+    a--;
+}
+
+Resposta: O(1), Ômega(1) e theta(1)
+-------------------------------------------
+Exercício (7) 
+for (int i = 0; i < 5; i++){
+    if (i % 2 == 0){
+        a--;
+        b--;
+    } else {
+        c--;
+    }
+}
+
+Resposta: O(1), Ômega(1) e theta(1)
+-------------------------------------------
+Exercício Resolvido (8)
+int a = 10;
+for (int i = 0; i < 3; i++){
+    for (int j = 0; j < 2; j++){
+        a--;
+    }
+}
+
+Resposta: O(1), Ômega(1) e theta(1)
+---------------------------------------------
+Exercício (8)
+for (int i = 0; i < n; i++){
+    for (int j = 0; j < n; j++){
+        a--;
+    }
+}
+
+Resposta: O(n²), Ômega(n²) e theta(n²)
+----------------------------------------------
+Exercício (9)
+int i = 1, b = 10;
+while (i > 0){
+    b--;
+    i = i >> 1;
+}
+i = 0;
+while (i < 15){
+    b--;
+    i += 2;
+}
+
+Resposta: O(1), Ômega(1) e theta(1)
+------------------------------------------------
+Exercício (10) 
+
+for (int i = 0; i < n; i++)
+    for (int j = 0; j < n - 3; j++)
+        a *= 2;
+
+Resposta: O(n²), Ômega(n²) e theta(n²)
+-------------------------------------------------
+Exercício (12)
+for (int i = n; i > 0; i /= 2)
+    a *= 2;
+
+Resposta: O(lg(n)), Ômega(lg(n)) e theta(lg(n))
+-------------------------------------------------
+Exercício (13)
+for (int i = n+4; i > 0; i >>= 1)
+    a *= 2;
+
+Resposta: O(lg(n+4)), Ômega(lg(n+4)) e theta(lg(n+4))
+----------------------------------------------------
+Exercício (14)
+for (int i = n - 7; i >= 1; i--)
+    for (int j = n - 7; j >= 1; j--)
+        a *= 2;
+
+Resposta: O(n²), Ômega(n²) e theta(n²)
+----------------------------------------------------
+Exercício Resolvido (9)
+for (int i = n; i > 0; i /= 2)
+    a *= 2;
+
+Resposta: O(lg(n)), Ômega(lg(n)) e theta(lg(n))
+-----------------------------------------------------
+Exercício (15)
+for (int i = n + 1; i > 0; i /= 2)
+    a *= 2;
+
+Resposta: O(lg(n)), Ômega(lg(n)) e theta(lg(n))
+-----------------------------------------------------
+Exercício (16)
+for (int i = n; i > 1; i /= 2)
+    a *= 2;
+
+Resposta: O(lg(n)), Ômega(lg(n)) e theta(lg(n))
+-----------------------------------------------------
+Exercício (17)
+for (int i = 1; i < n; i *= 2)
+    a *= 2;
+
+Resposta: O(lg(n)), Ômega(lg(n)) e theta(lg(n))
+-----------------------------------------------------
+Exercício (18)
+for (int i = 1; i <= n; i *= 2)
+    a *= 2;
+
+
+Resposta: O(lg(n)), Ômega(lg(n)) e theta(lg(n))
+---------------------------------------------------
+Exercício Resolvido (10)
+a) 3n + 2n² - Resposta: O(n²), Ômega(n²) e theta(n²)
+b) 5n + 4n³ - Resposta: O(n³), Ômega(n³) e theta(n³)
+c) lg(n) + n - Resposta: O(n), Ômega(n) e theta(n)
+d) 2n³ + 5 - Resposta: O(n³), Ômega(n³) e theta(n³)
+e) 9n^4 + 5n² + n/2 - Resposta: O(n^4), Ômega(n^4) e theta(n^4)
+f) lg(n) + 5 lg(n) - O(lg(n)), Ômega(lg(n)) e theta(lg(n))
+------------------------------------------------------
+Exercício Resolvido (11)
+for (int i = 1; i < n; i++){
+    if (min > array[i]){
+        min = array[i];
+    }
+}
+
+
+Resposta: O(n), Ômega(n) e theta(n)

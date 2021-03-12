@@ -1,0 +1,31 @@
+Página 61:
+A solução apresentada para pesquisa binária faz duas comparações entre
+elementos do array em cada execução da repetição, modifique o código
+para efetuarmos apenas uma
+
+Resposta:
+
+O Código realiza somente uma comparação entre elementos do array no while,
+a comparação no if, é somente para retornar a resposta, mas pode ser substituida
+por somente "return esq;", mas ai teriamos que saber que o elemento está contido
+no array.
+
+boolean resp = false;
+int dir = array.length - 1, esq = 0, meio = 0;
+while (dir - esq > 1) {
+    meio = esq + (dir - esq) / 2;
+    if (array[meio] <= x){
+        esq = meio;
+    }else {
+        dir = meio;
+    }
+}
+
+if(array[esq] == x)
+    resp = true; //resp = esq; caso queira retornar a posição do array
+else if(array[dir] == x)
+    resp = true; //resp = dir; caso queira retornar a posição do array
+else
+    resp = false;
+
+return resp;

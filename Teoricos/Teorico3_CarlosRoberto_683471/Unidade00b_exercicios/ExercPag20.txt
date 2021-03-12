@@ -1,0 +1,8 @@
+Por que o código abaixo imprime [46 - 11]?
+int x = 23, y = 23;
+x = x << 1;
+y = y >> 1;
+System.out.println(“[” + x + “ - ” + y + “]”);
+
+Resposta: Os operados shift right (>>) e shift left (<<), deslocam os bits de um determinado
+valor, para a direita e esquerda, e na posição vazia, insere o zero. 

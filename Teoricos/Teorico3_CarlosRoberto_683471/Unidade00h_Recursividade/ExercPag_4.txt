@@ -1,0 +1,24 @@
+Página 4:
+Identifique as chamadas recursivas e condições de parada
+
+Código 1:
+int fat (int n){
+    int resp;
+    if (n == 1){ //condição de parada
+	resp = 1;
+    } else {
+	resp = n * fat (n - 1);//fat( n - 1) é a chamada recursiva
+    }
+    return resp;
+}
+
+Código 2:
+int fib (int n){
+    int resp;
+    if (n == 0 || n == 1){ //condição de parada
+	resp = 1;
+    } else {
+	resp = fib (n - 1) + fib(n - 2); //chamada recursiva
+    }
+    return resp;
+}

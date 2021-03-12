@@ -1,0 +1,4 @@
+Podemos afirmar que Somatório de i(i-1).(5-i), i indo de 0 até 5 é =(igual) Somatório de i.(i-1).(5-i), i indo de 2 até 4? Justifique.
+
+Resposta: Sim, pois o somatório em i = 0, i = 1 e i = 5, é 0, 
+então a soma só vai pegar os valores não nulos de i = 2, i = 3 e i = 4.

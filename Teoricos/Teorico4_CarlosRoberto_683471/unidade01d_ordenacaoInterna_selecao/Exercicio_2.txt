@@ -1,0 +1,26 @@
+Página 190:
+Execute a versão abaixo do Seleção para arrays gerados aleatoriamente.
+Em seguida, discuta sobre os números de comparações inseridas e
+movimentações evitadas pela nova versão do algoritmo
+
+
+for (int i = 0; i < (n - 1); i++) {
+    int menor = i;
+    for (int j = (i + 1); j < n; j++){
+        if (array[menor] > array[j]){
+            menor = j;
+        }
+    }
+    if(menor != i){
+        swap(menor, i);
+    }
+}
+
+Resposta: A nova versão do algoritmo vai fazer O(n) comparações entre variáveis, 
+que representam posições do array. Para evitar O(1) movimentações entre os elementos do array.
+Mesmo que a operação mais relevante do algoritmo seja a comparação entre elementos do array,
+acho que nova versão pode ter um custo maior.
+
+Executei a nova versão várias vezes, com uma mensagem falando quantas vezes uma movimentação foi evitada,
+nas execuções com array de tamanho 100 e geradas aleatoriamente (como pede o exercício),
+a média de movimentações evitadas foi entre 1 - 5 movimentações. 

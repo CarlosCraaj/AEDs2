@@ -1,0 +1,6 @@
+Página 27:
+Quando acontece o melhor e o pior caso do algoritmo de pesquisa
+sequencial?
+
+Resposta: O Melhor caso acontece quando o elemento procurado está na primeira posição.
+E o pior caso acontece quando o elemento está na última posição, ou não está no array.

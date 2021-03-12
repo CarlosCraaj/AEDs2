@@ -1,0 +1,14 @@
+Página 11:
+Calcule o número de adições que o código abaixo realiza:
+
+...
+if (a + 5 < b + 3){
+    i++;
+    ++b;
+    a += 3;
+} else {
+    j++;
+}
+
+Resposta: No Melhor caso, 3 adições (2 para testar no if + 1 do else).
+E no pior caso, realiza 5 adições (2 para testar no if + 3 caso o if for verdadeiro).

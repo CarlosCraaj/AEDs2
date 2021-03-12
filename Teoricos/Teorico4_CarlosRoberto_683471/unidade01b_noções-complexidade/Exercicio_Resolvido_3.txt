@@ -1,0 +1,14 @@
+Página 17:
+Calcule o número de adições que o código abaixo realiza:
+
+...
+if (a + 5 < b + 3 || c + 1 < d + 3){
+    i++;
+    ++b;
+    a += 3;
+} else {
+    j++;
+}
+
+Resposta: O Melhor caso é 5 adições, ou seja, quando a primeira condição do if é verdadeira.
+E no pior caso são 7 adições, ou seja, quando a primeira é falsa e a segunda é verdadeira.

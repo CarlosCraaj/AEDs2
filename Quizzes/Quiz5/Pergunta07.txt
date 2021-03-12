@@ -1,0 +1,18 @@
+Dada a fórmula fechada do somatório dos n primeiros números inteiros, 
+mostre um algoritmo mais eficiente que o apresentado abaixo:
+
+int somatorio(int n){
+    int soma = 0;
+    for(int i = 1; i <= n; i++){
+	soma += i;
+    }
+    return soma;
+}
+
+Resposta: Como a fórmula fechada do somatório dos n primeiros números inteiros,
+é n(n+1)/2, podemos returnar ela, ou seja, nossa resposta fica:
+
+int somatorio(int n)
+{ 
+    return (n*(n+1))/2;
+}

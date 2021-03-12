@@ -1,0 +1,7 @@
+Enunciado: O Algoritmo de Seleção é uma solução conhecida para a ordenação interna. 
+Quantas comparações entre registros (elementos do array) ele realiza?
+
+Resposta: O algortimo de seleção faz (n - 1 - i) comparações entre elementos do array,
+o i começa em 0, e vai até n-2. Então em um exemplo com n = 5, o algortimo realizará
+10 comparações entre elementos do array.
+

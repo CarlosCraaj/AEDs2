@@ -1,0 +1,26 @@
+Página 121:
+Faça com que nosso código conte o número de movimentações?
+
+for (int i = 0; i < (n - 1); i++) {
+    int menor = i;
+    for (int j = (i + 1); j < n; j++){
+        if (array[menor] > array[j]){
+            menor = j;
+        }
+    }
+    swap(menor, i);
+}
+
+Resposta:
+int mov = 0;
+for (int i = 0; i < (n - 1); i++) {
+    int menor = i;
+    for (int j = (i + 1); j < n; j++){
+        if (array[menor] > array[j]){
+	    menor = j;
+        }
+    }
+    swap(menor, i);
+    mov += 3;
+}
+System.out.println(mov);

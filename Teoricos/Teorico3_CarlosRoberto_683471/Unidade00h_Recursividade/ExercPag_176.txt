@@ -1,0 +1,20 @@
+Página 176:
+Faça um método recursivo que receba um array de números inteiros e um
+número inteiro n indicando o tamanho do array e retorne o maior elemento
+
+Código:
+int maior (int vet[], int n){
+    return maior (vet, n, 0);
+}
+int maior (int vet[], int n, int i){
+    int resp;
+    if (i == n - 1){
+	resp = vet[n - 1];
+    } else {
+	resp = maior(vet, n, i + 1);
+	if (resp < vet[i]){
+	    resp = vet[i];
+	}
+    }
+    return resp;
+}

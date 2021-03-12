@@ -1,0 +1,10 @@
+Aluno: Carlos Roberto
+Matrícula: 683471
+
+
+Mostre o somatório dos n primeiros números inteiros.
+
+Resposta: O i começa em 1, ou seja, i = 1. E incrementa, ou seja, aumenta/soma
+de 1 em 1, até chegar em exatamente n.
+
+Exemplo: n = 5. 1 + 2 + 3 + 4 + 5 = 15.

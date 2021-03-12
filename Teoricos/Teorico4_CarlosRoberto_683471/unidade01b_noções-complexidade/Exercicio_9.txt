@@ -1,0 +1,16 @@
+Página 70:
+Calcule o número de subtrações que o código abaixo realiza:
+
+int i = 1, b = 10;
+while (i > 0){
+    b--;
+    i = i >> 1;
+}
+i = 0;
+while (i < 15){
+    b--;
+    i += 2;
+}
+
+Resposta: No primeiro While, é realizado somente 1 subtração. 
+E no segundo While é realizado 8 subtrações, totalizando 9 subtrações.

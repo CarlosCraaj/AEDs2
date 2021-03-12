@@ -1,0 +1,11 @@
+Página 32:
+Calcule o número de subtrações que o código abaixo realiza:
+
+int a = 10;
+for (int i = 0; i < 3; i++){
+    for (int j = 0; j < 2; j++){
+        a--;
+    }
+}
+
+Resposta: O código realiza 6 subtrações.

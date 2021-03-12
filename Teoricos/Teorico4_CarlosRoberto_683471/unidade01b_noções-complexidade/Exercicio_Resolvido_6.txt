@@ -1,0 +1,10 @@
+Página 24:
+Calcule o número de subtrações que o código abaixo realiza:
+
+int i = 0, b = 10;
+while (i < 3){
+    i++;
+    b--;
+}
+
+Resposta: O código realiza 3 subtrações.

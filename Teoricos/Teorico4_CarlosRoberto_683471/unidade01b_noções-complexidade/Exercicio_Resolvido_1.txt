@@ -1,0 +1,9 @@
+Página 9:
+Calcule o número de subtrações que o código abaixo realiza:
+
+...
+a--;
+a -= 3;
+a = a - 2;
+
+Resposta: 3 subtrações.

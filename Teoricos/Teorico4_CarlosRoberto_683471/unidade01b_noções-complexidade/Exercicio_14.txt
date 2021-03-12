@@ -1,0 +1,8 @@
+Página 75:
+Calcule o número de multiplicações que o código abaixo realiza:
+
+for (int i = n - 7; i >= 1; i--)
+    for (int j = n - 7; j >= 1; j--)
+        a *= 2;
+
+Resposta: O código realiza (n - 7)² multiplicações.

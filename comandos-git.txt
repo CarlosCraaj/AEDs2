@@ -1,0 +1,53 @@
+alguns comandos git-github:
+
+git config --global user.name "Nome" 
+git config --global user.email "Email"
+git config --global core.editor "Editor"
+git config user.name (saber nome do usuario)
+git config --list (lista de config do usuario)
+mkdir nomeArquivo (Criar Arquivo/Pasta)
+git init (Transformar uma pasta num repositório)
+git log (para ver os commit's)
+git diff
+git commit -m "Mudança" (precisa usar git add example.c)
+
+git commit -am "Mudança" (Adiciona e comita com mensagem)
+
+git checkout -b nome (Cria um branch)
+git branch (mostra os branch's existentes e com '*' o branch atualmente sendo usado)
+
+git checkout nome_branch (troca para outro branch)
+
+
+git branch -D nome_branch (Deleta um branch)
+git clone link_github NomePasta (Clonar um repositório para seu Desktop/PC)
+git status (Verifica o Status do projeto, se tem algum arquivo pra commitar e etc)
+git branch -m novo_nome_do_branch (muda o nome do branch atual)
+git checkout NomeArquivo (Volta para antes da edição)
+git reset HEAD NomeArquivo (Em caso de usar git add, com isso volta para antes desse ponto)
+	OBS: dps de usaer reset Head, usar git checkout nomeArquivo
+git reset --soft --mixed --hard (Casos de reset para quando já se commitou)
+	--soft (Para voltar 1 passo antes de commitar)
+	--mixed (Volta ao ponto que editou, mas não deu add e nem commitou)
+	--hard (Ele "mata" toda modificação, edição e etc)
+	OBS: Usar a hash do commit que quer voltar (1 antes por exemplo).
+git push origin main (Passar os commit's do git para o github/remoto)
+	*origin é um nome default para determinar a origem do remoto, o nome pode ser outro
+	*main é o nome da branch utilizada
+Ligar git Desktop com Remoto (github):
+	1° git remote add origin "link do repositório remoto" 
+	2° git push -u origin master
+git remote (Saber se existe algum "origin" na pasta Desktop)
+git merge NomeBranch (Para adicionar ao Branch desejado)
+git rebase NomeBranch (Para adicionar ao Branch desejado
+git stash (Guarda a modificação)
+git stash apply (Guarda a modificação em um local/branch)
+git stash list (Mostra a lista de todos os stash)
+git stash clear (Limpa tudo que está no stash)
+git tag -a Versão -m "Comentário" (Cria uma tag com as modificações atuais)
+git tag (Vê as tags do repositório/branch atual)
+git push origin master --tags (Sobe a Tag para o git remote (github))
+git show hashDoCommit (Para ver tudo sobre o commit)
+git revert hashDoCommit (Reverte as mudanças do commit, mas ele continua no git log)
+git tag -d VersãoTag (Remove uma tag especifica)
+git push origin :VersãoTag (Exclui uma tag especifica do github)

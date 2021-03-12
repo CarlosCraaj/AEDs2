@@ -1,0 +1,7 @@
+Página 28:
+Supondo que temos uma informação extra sobre o array: que ele está
+ordenado. Conseguimos fazer algo mais eficiente? Como?
+
+Resposta: Sim, começamos a pesquisar pela metade do array.Se o elemento procurado for
+maior que o da metade, descartamos a primeira metade do array; senão,
+a segunda metade. Repetimos o processo com a metade não descartada

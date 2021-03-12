@@ -1,0 +1,16 @@
+Página 167:
+Faça um método recursivo que receba dois números inteiros e retorne a
+multiplicação do primeiro pelo segundo fazendo somas
+
+Resposta:
+int multiplicacao (int a, int b){
+    int resp = 0;
+    if (b > 0){
+	resp = a + multiplicacao(a, b - 1);
+    }
+    return resp;
+}
+
+void main (...){
+    multiplicacao(4, 3);
+}

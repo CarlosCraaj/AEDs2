@@ -1,0 +1,9 @@
+O que o programa abaixo mostra na tela?
+Código: 
+byte b = 0; short s = 0; int i = 0; long l = 0;
+    while (true){
+        b++; s++; i++; l++;
+        System.out.println(b + “ ” + s + “ ” + i + “ ” + l);
+    }
+
+Resposta: Vai printar os valores acrescidos de +1, de forma infinita, pois o laço While não tem condição de parada.

@@ -1,0 +1,12 @@
+Qual é a diferença entre os dois métodos abaixo?
+Código:
+int m1(int i){
+    return i--;
+}
+int m2(int i){
+    return --i;
+}
+
+Resposta: a função m1, faz o pós-decremento, ou seja, primeiro usa a variável para depois diminuir o valor, mas nesse caso
+a variável não vai ter o valor alterado quando for retornada (no main, em caso de ser printada posteriormente).
+Já na função m2, com o pré-decremento, ela vai retornar a váriavel com o valor subtraido em 1. (Exemplo: i = 4, vai ser printado 3).

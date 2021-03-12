@@ -1,0 +1,9 @@
+Página 26:
+Calcule o número de subtrações que o código abaixo realiza
+
+...
+for (int i = 3; i < n; i++){
+    a--;
+}
+
+Resposta: O código realiza n - 3 subtrações.

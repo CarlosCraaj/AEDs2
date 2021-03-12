@@ -1,0 +1,17 @@
+Enunciado: Qual é a sua opinião sobre o código REAL abaixo?
+Código:
+Unidade recuperarUnidadeComCodigoDeUCI(Unidade unidadeFilha) {
+    Unidade retorno = null;
+    if (unidadeFilha.getCodUci() != null && !unidadeFilha.getCodUci().isEmpty()) {
+        retorno = unidadeFilha;
+    } else {
+        retorno = unidadeFilha.getUnidadeSuperior();
+    }
+
+    while (retorno == null || retorno.getCodUci() == null || retorno.getCodUci().isEmpty()) {
+        retorno = retorno.getUnidadeSuperior();
+    }
+    return retorno;
+}
+
+Resposta:  

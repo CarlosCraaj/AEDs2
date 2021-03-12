@@ -1,0 +1,23 @@
+Enunciado: Faça o quadro de memória do programa abaixo
+Código: 
+class Ponteiro02PassagemTipoPrimitivo {
+    public static void passagemDeTipoPrimitivo(int a){
+        escrever(“a: ” + a);
+        a = 10;
+        escrever(“a: ” + a);
+    }
+
+    public static void main(String[] args) {
+        int x = 5;
+        escrever(“x: ” + x);
+        passagemDeTipoPrimitivo(x);
+        escrever(“x: ” + x);
+    }
+}
+
+Resposta:
+Tela:
+x: 5
+a: 5
+a: 10
+x: 5

@@ -1,0 +1,18 @@
+Página 86:
+Encontre o menor valor em um array de inteiros
+Código:
+int min = array[0];
+for (int i = 1; i < n; i++){
+    if (min > array[i]){
+        min = array[i];
+    }
+}
+
+1°) Qual é a operação relevante?
+Resposta: Comparação entre elementos do array.
+
+2°) Quantas vezes ela será executada?
+Resposta: Será executada n - 1 vezes.
+
+3°) O nosso T(n) = n - 1 é para qual dos três casos?
+Resposta: Todas as posições serão testadas, então todos os casos é n - 1 comparações.

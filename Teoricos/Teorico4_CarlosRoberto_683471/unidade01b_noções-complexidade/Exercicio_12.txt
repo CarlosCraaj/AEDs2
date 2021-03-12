@@ -1,0 +1,7 @@
+Página 73:
+Calcule o número de multiplicações que o código abaixo realiza:
+
+for (int i = n; i > 0; i /= 2)
+    a *= 2;
+
+Resposta: O código realiza lg(n) + 1 multiplicações.
