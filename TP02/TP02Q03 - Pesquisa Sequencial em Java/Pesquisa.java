@@ -387,21 +387,7 @@ class Musica
     }
 
 
-    public static String Pesquisa(String id, Musica[] musics, int[] comp)
-    {
-        String resp = "NAO";
-        for(int i = 0; i < 300; i++)
-        {
-            if(musics[i].getID().compareTo(id) == 0)
-            {
-                resp = "SIM";
-                i = 300;
-            }
-            comp[0] += 1;
-        }
-
-        return resp;
-    }
+    
 
     //Inicio get's e set's
     public String getID()
@@ -735,6 +721,22 @@ class Musica
 
 class Pesquisa
 {
+    public static String Pesquisa(String id, Musica[] musics, int[] comp)
+    {
+        String resp = "NAO";
+        for(int i = 0; i < 300; i++)
+        {
+            if(musics[i].getID().compareTo(id) == 0)
+            {
+                resp = "SIM";
+                i = 300;
+            }
+            comp[0] += 1;
+        }
+
+        return resp;
+    }
+
     public static void main(String[] args) throws Exception
     {
         Musica[] musics = new Musica[310]; //Declara 310 objetos do tipo Musica
@@ -773,7 +775,7 @@ class Pesquisa
         inicio = algoritmo.now();
         while(i < nPes)
         {
-            MyIO.println(Musica.Pesquisa(pubinPes[i], musics, comp));
+            MyIO.println(Pesquisa(pubinPes[i], musics, comp));
             i++;
         }
         fim = algoritmo.now();
