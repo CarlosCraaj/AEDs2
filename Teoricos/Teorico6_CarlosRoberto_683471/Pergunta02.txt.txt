@@ -1,0 +1,25 @@
+Enunciado:
+Um algoritmo de ordenação tradicional é o Inserção. Faça a análise de
+complexidade desse algoritmo para os números de comparações e
+movimentações entre registros no pior e melhor caso.
+
+Números de comparações no melhor caso: 
+R: Como o array está ordenado, o algoritmo fará n-1 comparações.
+
+Número de comparações no pior caso:
+R: No pior caso, o algoritmo vai fazer i comparações para cada
+incremento do laço externo. Fazendo assim (n-1)*n/2 comparações.
+Pois como sabemos o Somatório de i é (n-1)*n/2.
+
+Número de Movimentações entre registros no melhor caso:
+R: O laço externo é repetido n-1 vezes, e no próprio laço externo
+é feita 2 movimentações, como já está ordenado, não é contabilizado
+a movimentação do laço interno.
+Logo temos que é feita 2(n-1) movimentações entre elementos do array.
+
+Número de movimentações entre registros no pior caso:
+R: Como o laço externo vai ser repetido até n-1, e no pior caso,
+o laço interno vai fazer i comparações e movimentações até n-1.
+Temos a fórmula do somatório de i que é ((n-1)*n)/2 somando com
+o número de vezes que o laço externo se repete que é n-1.
+Fazendo algebrismo chegamos no resultado = (n²+n-2)/2. 

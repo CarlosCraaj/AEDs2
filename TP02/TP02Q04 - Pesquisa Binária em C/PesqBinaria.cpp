@@ -622,27 +622,36 @@ void imprimir(Musica *M)
     free(tmp);
 }
 
-
-void freeMusica(Musica *M)
+int comparison(char *menor, char *j)
 {
-    free(M->id); free(M->nome); free(M->key);
-    for(int i = 0; i < 20; i++)
-        free(M->list[i]);
-    free(M->list);
-    //free(data);
-    free(M);
+    int i = 0;
+    int resp = 0;
+    while(i < strlen(menor))
+    {
+        if((int)menor[i] < (int)j[i])
+        {
+            resp = -1;
+            i = 23;
+        }else if((int)menor[i] > (int)j[i])
+        {
+            resp = 1;
+            i = 23;
+        }
+        i++;
+    }
+
+    return resp;
 }
 
 void OrdenarArrayMusica(Musica **M, int len)
 {
     Musica *tmp;
-    tmp = Construtor();
     for(int i = 0; i < (len-1); i++)
     {
         int menor = i;
         for(int j = (i+1); j < len; j++)
         {
-            if(strcmp(M[menor]->id, M[j]->id) == 1)
+            if(comparison(M[menor]->id, M[j]->id) == 1)
             {
                 menor = j;
             }
@@ -651,7 +660,6 @@ void OrdenarArrayMusica(Musica **M, int len)
             M[i] = tmp;
         }
     }
-    //free(tmp);
 }
 
 void pesquisaBinaria(Musica **M, char *id, int len, char* resp, int* comp)
@@ -666,7 +674,7 @@ void pesquisaBinaria(Musica **M, char *id, int len, char* resp, int* comp)
             comp[0] += 1;
             strcpy(resp, "SIM");
             esq = len;
-        }else if(strcmp(id, M[meio]->id) == 1)
+        }else if(strcmp(id, M[meio]->id) > 0)
         {
             comp[0] += 2;
             esq = meio + 1;
