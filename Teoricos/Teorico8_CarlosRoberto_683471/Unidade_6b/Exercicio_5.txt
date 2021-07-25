@@ -1,0 +1,19 @@
+Aluno: Carlos Roberto
+Matrícula: 683471
+
+Enunciado: Seja nossa Pilha, faça um método RECURSIVO para mostrar os elementos
+da pilha na ordem em que os mesmos foram inseridos
+
+Resposta:
+
+public void mostrarRecursivo(){
+    mostrarRecursivo(topo);
+}
+
+
+public void mostrarRecursivo(Celula i){
+    if(i != null){
+	mostrarRecursivo(i.prox);
+	System.out.println(i.elemento);
+    }
+}

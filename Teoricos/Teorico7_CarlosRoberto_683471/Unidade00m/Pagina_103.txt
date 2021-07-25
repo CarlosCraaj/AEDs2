@@ -1,0 +1,13 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Enunciado: Represente graficamente o código Java abaixo
+Código:
+Elemento[] e2 = new Elemento [3];
+for (int i = 0; i < 3; i ++){
+    e2[i] = new Elemento();
+}
+
+Resposta:
+e2 aponta para o 1° endereço de memória do array, e cada endereço de memória
+aponta para outro endereço de memória.

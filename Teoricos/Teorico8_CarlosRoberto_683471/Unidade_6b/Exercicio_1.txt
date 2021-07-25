@@ -1,0 +1,23 @@
+Aluno: Carlos Roberto
+Matrícula: 683471
+
+Enunciado: Seja nossa Pilha, faça um método RECURSIVO que soma o conteúdo dos
+elementos contidos na mesma
+
+Resposta:
+
+public int somar(){
+    int soma = somar(topo);
+    return soma;
+}
+
+
+public int somar(Celula i){
+    int soma = 0;
+    if(i != null){
+	i = i.prox;
+        soma = i.elemento + somar(i);
+    }
+
+    return soma;
+}

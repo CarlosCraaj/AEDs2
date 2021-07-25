@@ -1,0 +1,13 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Enunciado: Mostre o quadro de memória para o programa abaixo
+
+
+Resposta:
+c1/1/aa
+Endereço de Memória vet[0]/1/aa
+Endereço de Memória vet[1]/1/aa
+Endereço de Memória vet[2]/1/aa
+Endereço de Memória vet[3]/1/aa
+Endereço de Memória vet[4]/1/aa

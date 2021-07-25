@@ -1,0 +1,13 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Enunciado: Mostre o quadro de memória
+
+Resposta:
+     Quadro de Memória (Valores Fictícios)
+Variavel    /    Conteúdo    /     Endereço de memória (No caso do ponteiro o conteúdo)
+a           /    ?           /     1020
+b           /    ?           /     1040
+b[5]        /    100         /     1060
+b           /    ?           /     1120
+b[7]        /    100         /     1148           

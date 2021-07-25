@@ -1,0 +1,8 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Enunciado: Represente graficamente o código Java abaixo
+Código: Elemento[] e2 = new Elemento [3];
+
+Resposta: 
+e2 -> aponta para o 1° endereço de memória (posição 0) do array de tamanho 3.

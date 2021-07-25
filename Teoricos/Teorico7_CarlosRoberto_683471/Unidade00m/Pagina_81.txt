@@ -1,0 +1,12 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Enunciado: Mostre a saída na tela
+
+Resposta:
+3.140000
+2.718000
+5.000000
+20.000000
+5.000000
+0.000000

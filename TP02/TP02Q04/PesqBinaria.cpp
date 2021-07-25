@@ -655,10 +655,10 @@ void OrdenarArrayMusica(Musica **M, int len)
             {
                 menor = j;
             }
-            tmp = M[menor];
-            M[menor] = M[i];
-            M[i] = tmp;
         }
+        tmp = M[menor];
+        M[menor] = M[i];
+        M[i] = tmp;
     }
 }
 

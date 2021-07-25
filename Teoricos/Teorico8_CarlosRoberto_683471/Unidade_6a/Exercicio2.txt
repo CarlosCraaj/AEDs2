@@ -1,0 +1,8 @@
+Aluno: Carlos Roberto
+Matrícula: 683471
+
+Enunciado: Mostre o que acontece se outra classe tiver o comando
+Celula tmp = new Celula(3).
+
+Resposta: A Celula tmp, vai apontar para a "caixinha" de 3, ou seja, para
+o ponteiro/referência que está o elemento 3, e o próximo dela, vai estar apontando para null.

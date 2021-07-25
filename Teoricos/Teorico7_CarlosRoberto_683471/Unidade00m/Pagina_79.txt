@@ -1,0 +1,16 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Enunciado: Fazer quadro de memória do código.
+
+Resposta:
+     Quadro de Memória (Valores Fictícios)
+Variavel    /    Conteúdo    /     Endereço de memória (No caso do ponteiro o conteúdo)
+registro    /    ? // ?      /     7Ah
+ponteiro    /    9Bd         /     ? // ? 
+registro    /    1 // AA     /     7Ah
+ponteiro    /    9Bd         /     2 // BB
+
+
+Funcionario (1): AA
+Funcionario (2): BB 

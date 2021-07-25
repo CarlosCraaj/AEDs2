@@ -1,0 +1,26 @@
+Aluno: Carlos Roberto
+Matrícula: 683471
+
+Enunciado: Seja nossa Pilha, faça um método RECURSIVO que retorna o maior
+elemento contido na pilha
+
+Resposta:
+
+public int maiorElemento(){
+    Celula i = topo;
+    int aux = topo.elemento;
+    i = i.prox;
+    int maior = maiorElemento(i, aux);
+    return maior;
+}
+
+public int maiorElemento(Celula i, int aux){
+    if(i != null){
+        if(i.elemento > aux){
+	    aux = maiorElemento(i.prox, i.elemento);
+	}
+	
+    }
+    
+    return aux;
+}

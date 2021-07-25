@@ -1,0 +1,11 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471 
+
+LEGENDA: Cara sublinhado ( _ ) representa 1 espaço.
+
+Enunciado: Represente graficamente o código C++ abaixo
+Código: Elemento e1;
+
+Resposta:
+e1 _ 
+Reserva um endereço de memória, mas não é um ponteiro.

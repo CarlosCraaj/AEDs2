@@ -1,0 +1,24 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Enunciado: Mostre a alteração anterior na classe Ponteiro04Objeto.
+Ou seja, inserir o trecho de código: c2 = c1.clone(); no código Ponteiro04Objeto
+
+Resposta: Esse trecho de código vai ser inserido após a declaração de c1.
+Teremos como resultado da execução o seguinte:
+Tela:
+ADDRs:
+c1(null)
+c2(null)
+c3(null)
+ADDRs:
+c1(7Ah)
+c2(Algum valor diferente de C1 aqui)
+c3(A5h)
+ATRIBUTOs
+c1(1/aa)
+c2(3/aa)
+c3(2/bb)
+
+Explicação: tivemos o endereço e os atributos de c2 diferente de c1, pois
+fazemos o clone dos dados/atributos e não do endereço, logo c2 é emancipado de c1.

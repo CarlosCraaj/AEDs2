@@ -1,0 +1,18 @@
+Aluno: Carlos Roberto
+Matrícula: 683471
+
+Enunciado: Seja nossa Pilha, faça um método que soma o conteúdo dos elementos
+contidos na mesma
+
+Resposta:
+
+public int somar(){
+int soma = 0;
+for (Celula i = topo; i != null; i = i.prox){
+    soma += i.elemento;
+}
+
+return soma;
+}
+
+OBS: Somente reutilizei o método mostrar(), e em vez de printar usei uma variável pra somar.

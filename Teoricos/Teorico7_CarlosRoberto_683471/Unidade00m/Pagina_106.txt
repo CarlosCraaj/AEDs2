@@ -1,0 +1,8 @@
+Aluno: Carlos Roberto Alves
+Matricula: 683471
+
+Enunciado: Represente graficamente o código c abaixo
+Código: Elemento e1;
+
+Resposta:
+O dado e1 aponta para um endereço de memória não alocado dinamicamente.

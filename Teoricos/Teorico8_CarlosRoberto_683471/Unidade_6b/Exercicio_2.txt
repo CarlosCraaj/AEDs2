@@ -1,0 +1,19 @@
+Aluno: Carlos Roberto
+Matrícula: 683471
+
+Enunciado: Seja nossa Pilha, faça um método que retorna o maior elemento contido na
+pilha
+
+Resposta:
+
+public int maior(){
+    Celula i = topo;
+    int maior = i.elemento;
+    i = i.prox;
+    for (/**/; i != null; i = i.prox){
+        if(i.elemento > maior){
+            maior = i.elemento;
+        }//fim if
+    }//fim for
+    return maior;
+}//fim metodo maior()

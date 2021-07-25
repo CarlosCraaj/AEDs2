@@ -1,0 +1,19 @@
+Aluno: Carlos Roberto
+Matrícula: 683471
+
+Enunciado: Crie uma classe célula contendo os atributos elemento
+(inteiro) e prox (apontador para outra célula)
+
+Resposta:
+
+class Celula{
+    public int element;
+    public Celula next;
+    public Celula(){
+        this(0);
+    }//fim construtor sem parâmetro
+    public Celular(int valor){
+       this.element = valor;
+       this.next = null;
+    }//fim construtor com parâmetro
+}//Fim Classe Celula

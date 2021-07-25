@@ -1,0 +1,17 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+LEGENDA: Cara sublinhado ( _ ) representa 1 espaço.
+
+Enunciado: Represente graficamente o código C abaixo
+Código: 
+Elemento** e4 = (Elemento**) malloc(3*sizeof(Elemento*));
+e4[0] = (Elemento*) malloc(sizeof(Elemento*));
+e4[2] = (Elemento*) malloc(sizeof(Elemento*));
+
+Resposta:
+e4 -> _ _ _
+      | | |
+      _ ? _
+Os elementos 0 e 2 apontam para outros endereços, e o elemento 1
+para outro elemento não especificado.

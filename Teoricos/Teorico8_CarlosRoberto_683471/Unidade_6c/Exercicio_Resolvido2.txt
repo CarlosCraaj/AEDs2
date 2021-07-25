@@ -1,0 +1,19 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Enunciado: Seja nossa Fila, faça um método que retorne o maior elemento contido na
+mesma
+
+Resposta:
+
+public int maior(){
+    Celula i = primeiro.prox;
+    int maior = i.elemento;
+    for(i = i.prox; i != null; i = i.prox){
+	if(i.elemento > maior){
+	    maior = i.elemento;
+	}
+    }
+
+    return maior;
+}

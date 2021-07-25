@@ -1,0 +1,8 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Enunciado: Represente graficamente o código C abaixo
+Código: Elemento* e2;
+
+Resposta:
+e2 -> ?

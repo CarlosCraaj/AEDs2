@@ -1,0 +1,24 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Enunciado: Seja nossa Fila, faça um método recursivo para contar o número de
+elementos pares AND múltiplos de cinco contidos na fila
+
+Resposta:
+
+public int contarElementos(){
+    int resp = contarElementos(primeiro.prox);
+    return resp;
+}
+
+public int contarElementos(Celula i){
+    int resp = 0;
+    if(i != null){
+	if(i.elemento % 2 == 0 && i.elemento % 5 == 0){
+	    resp = 1 + contarElementos(i.prox);
+        }else{
+	    resp = contarElementos(i.prox);
+        }
+    }
+    return resp;
+}

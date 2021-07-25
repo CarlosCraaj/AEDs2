@@ -1,0 +1,16 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Enunciado: Seja nossa Fila, faça um método que soma o conteúdo dos elementos
+contidos na mesma
+
+Resposta:
+
+public int somar(){
+    int soma = 0;
+    for(Celula i = primeiro.prox; i != null; i = i.prox){
+	soma += i.elemento;
+    }
+
+    return soma;
+}

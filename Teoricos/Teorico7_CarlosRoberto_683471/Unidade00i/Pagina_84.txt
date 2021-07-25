@@ -1,0 +1,11 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Enunciado: Um estudante de Algoritmos e Estruturas de Dados (em JAVA) implementou uma
+classe Hora, cujo construtor recebe e armazena uma hora, minuto e segundo. O que
+acontece se a classe X abaixo for colocada na mesma pasta que a classe Hora?
+
+Resposta: Apesar de ambos objetos (h1 e h2), terem valores de atributos idênticos,
+eles são estão em espaços diferentes de memória, e como no código está sendo feito
+a comparação entre h1 e h2 diretamente, e não seus elementos. 
+Será escrito na tela que são "Diferentes!".

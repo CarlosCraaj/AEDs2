@@ -1,0 +1,9 @@
+Aluno: Carlos Roberto
+Matrícula: 683471
+
+Enunciado: Mostre o que acontece se outra classe tiver o comando
+Celula tmp = new Celula().
+
+Resposta: A Celula tmp se torna um ponteiro, apontando para o endereço de memória do elemento 0,
+pois como é um construtor sem parâmetros, dentro dele teremos a chamada do construtor com parâmetros,
+com o valor 0 do elemento, e também tmp.prox vai apontar para null.

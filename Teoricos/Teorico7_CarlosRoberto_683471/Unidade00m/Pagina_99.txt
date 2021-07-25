@@ -1,0 +1,8 @@
+Aluno: Carlos ROberto Alves
+Matrículo: 683471
+
+Enunciado: Represente graficamente o código Java abaixo
+Código: Elemento e1 = new Elemento();
+
+Resposta:
+e1 -> endereço de memória

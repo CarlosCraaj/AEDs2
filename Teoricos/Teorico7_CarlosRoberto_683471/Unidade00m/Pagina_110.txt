@@ -1,0 +1,7 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Enunciado: Represente graficamente o código C abaixo
+Código: Elemento* e2 = (Elemento*) malloc(sizeof(Elemento));
+
+Resposta: e2 -> endereço de memória alocado dinamicamente.

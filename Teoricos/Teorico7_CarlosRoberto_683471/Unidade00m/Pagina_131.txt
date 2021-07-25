@@ -1,0 +1,11 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+
+LEGENDA: Cara sublinhado ( _ ) representa 1 espaço.
+
+Enunciado: Represente graficamente o código C++ abaixo
+Código: Elemento* e3[3];
+
+Resposta: 
+e3 _ _ _ (espaços de memória, não apontados por um ponteiro)

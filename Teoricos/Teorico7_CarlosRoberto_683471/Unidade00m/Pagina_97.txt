@@ -1,0 +1,9 @@
+Aluno: Carlos Roberto Alves
+Matricula: 683471
+
+Enunciado: Represente graficamente o código Java abaixo
+Código: Elemento e1;
+
+Resposta:
+e1 -> ?
+O dado e1 aponta para nenhum endereço de memória.

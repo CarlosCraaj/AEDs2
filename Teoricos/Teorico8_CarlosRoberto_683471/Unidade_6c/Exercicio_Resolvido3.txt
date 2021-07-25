@@ -1,0 +1,11 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Enunciado: Seja nossa Fila, faça um método para mostrar o terceiro elemento supondo
+que o mesmo existe
+
+Resposta:
+
+public int terceiroElemento(){
+    return (primeiro.prox.prox.prox.elemento);
+}

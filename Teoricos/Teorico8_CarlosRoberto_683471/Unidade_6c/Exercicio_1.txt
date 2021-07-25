@@ -1,0 +1,11 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+Enunciado: Impletemente o método mostrar
+
+Resposta: 
+public void mostrar(){
+    for(Celula i = primeiro.prox; i != null; i = i.prox){
+	System.out.println(i.elemento);
+    }
+}

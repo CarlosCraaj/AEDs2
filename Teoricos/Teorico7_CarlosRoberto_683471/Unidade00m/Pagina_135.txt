@@ -1,0 +1,14 @@
+Aluno: Carlos Roberto Alves
+Matrícula: 683471
+
+LEGENDA: Cara sublinhado ( _ ) representa 1 espaço.
+
+Enunciado: Represente graficamente o código C++ abaixo
+Código: Elemento** e4 = new Elemento*[3];
+
+Resposta:
+e4 -> _ _ _
+      | | |
+      ? ? ?
+e4 aponta para o endereço de memória do 1° elemento do array, e cada endereço
+aponta para outro endereço de memória.
